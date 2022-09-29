@@ -52,3 +52,25 @@ body {
     left: 10%;
     text-align: center;
 }
+
+#diapo_box_container {
+    position: fixed;
+    background-color: aquamarine;
+    text-align: right;
+    top: 30%;
+    left: 87%;
+}
+
+#diapo_box {
+    background-color: #191C22;
+    border: 1px solid grey;
+}
+
+#diapo2 {
+    position: absolute;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    top: 200%;
+    scroll-behavior: smooth;
+}

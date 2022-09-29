@@ -9,11 +9,11 @@ function Musique2() {
 }
 
 function Musique3() {
-    var musique3 = new Audio('Epoch.mp3');
+    var musique3 = new Audio('Endless_Nights.mp3');
     musique3.play();
 }
 
 function Musique4() {
-    var musique4 = new Audio('Summertime.mp3');
+    var musique4 = new Audio('Beach.mp3');
     musique4.play();
 }
