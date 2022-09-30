@@ -6,6 +6,7 @@
 body {
     background-color: #191C22;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 .ms {
@@ -56,7 +57,7 @@ body {
 
 #diapo_box_container {
     position: fixed;
-    text-align: right;
+    text-align: left;
     top: 30%;
     left: 87%;
 }
@@ -86,7 +87,7 @@ li:hover {
 
 #scroll {
     scroll-behavior: smooth;
-    overflow-y: scroll;
+    overflow-y: hidden;
     position: fixed;
     width: 100%;
     height: 100%;
