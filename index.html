@@ -4,19 +4,22 @@
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
+    <div id="scroll">
+        <div id="head"></div>
         <div id="f-diapo1_container"><img id="f-diapo1" src="f-diapo1.jpg" ></div>
         <div id="titre1_container"><div id="titre1_surline"><h1 id="titre1">Pythagore</h1></div></div>
         <img onclick="Musique1()" src="m-icon.png" class='ms' id="ms1" >
         <img onclick="Musique2()" src="m-icon.png" class='ms' id="ms2" >
         <img onclick="Musique3()" src="m-icon.png" class='ms' id="ms3" >
         <img onclick="Musique4()" src="m-icon.png" class='ms' id="ms4" >
-        <div id="diapo_box_container"><div id="diapo_box">
-            <ul>
-                <a href="#diapo2"><li>Diapositive 1</li></a>
-                <a><li>Diapositive 2</li></a>
+        <div id="diapo_box_container">
+            <ul id="diapos">
+                <a href="#head"><li>Diapositive 1</li></a>
+                <a href="#diapo2"><li>Diapositive 2</li></a>
             </ul>
-        </div></div>
+        </div>
         <div id="diapo2"></div>
+    </div>
         <script src="script.js"></script>
     </body>
 </html>

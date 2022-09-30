@@ -5,6 +5,7 @@
 
 body {
     background-color: #191C22;
+    scroll-behavior: smooth;
 }
 
 .ms {
@@ -55,15 +56,13 @@ body {
 
 #diapo_box_container {
     position: fixed;
-    background-color: aquamarine;
     text-align: right;
     top: 30%;
     left: 87%;
 }
 
-#diapo_box {
+#diapos {
     background-color: #191C22;
-    border: 1px solid grey;
 }
 
 #diapo2 {
@@ -71,6 +70,26 @@ body {
     background-color: white;
     width: 10px;
     height: 10px;
-    top: 200%;
+    top: 500%;
     scroll-behavior: smooth;
+}
+
+li {
+    color: grey;
+    text-decoration: underline grey;
+}
+
+li:hover {
+    color: #AB1355;
+    text-decoration: underline #AB1355;
+}
+
+#scroll {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
 }
