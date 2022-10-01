@@ -13,6 +13,7 @@ body {
     position: fixed;
     width: 50px;
     height: 50px;
+    z-index: 1000;
 }
 
 #ms1 {
@@ -58,7 +59,7 @@ body {
 #diapo_box_container {
     position: fixed;
     text-align: left;
-    top: 30%;
+    top: 20%;
     left: 87%;
 }
 
@@ -93,4 +94,14 @@ li:hover {
     height: 100%;
     top: 0%;
     left: 0%;
+}
+
+#f-diapo2_container {
+    position: absolute;
+    top: 400%;
+    left: 6%;
+}
+
+#f-diapo2 {
+    width: 84%;
 }
