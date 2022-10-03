@@ -66,6 +66,7 @@ body {
     text-align: left;
     top: 20%;
     left: 87%;
+    font-family: 'Reef';
 }
 
 #end {
@@ -129,4 +130,14 @@ li:hover {
     color: white;
     font-family: 'Reef';
     font-size: 150;
+}
+
+#f-dead_container {
+    position: absolute;
+    top: 1000%;
+    left: 6%;
+}
+
+#f-dead {
+    width: 180%;
 }
