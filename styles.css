@@ -3,6 +3,11 @@
     src: url('https://anonymeusb.github.io/expos-metiers/space%20age.ttf');
 }
 
+@font-face {
+    font-family: 'Reef';
+    src: url('./Reef.otf');
+}
+
 body {
     background-color: #191C22;
     scroll-behavior: smooth;
@@ -109,5 +114,19 @@ li:hover {
 }
 
 #f-diapo3 {
-    width: 800px;
+    width: 180%;
+}
+
+#d_container {
+    position: absolute;
+    width: 90%;
+    top: 800%;
+    left: 0%;
+    text-align: center;
+}
+
+#text {
+    color: white;
+    font-family: 'Reef';
+    font-size: 150;
 }
