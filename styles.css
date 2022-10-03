@@ -63,16 +63,12 @@ body {
     left: 87%;
 }
 
-#diapos {
-    background-color: #191C22;
-}
-
-#diapo2 {
+#end {
     position: absolute;
     background-color: white;
     width: 10px;
     height: 10px;
-    top: 500%;
+    top: 1500%;
     scroll-behavior: smooth;
 }
 
@@ -104,4 +100,14 @@ li:hover {
 
 #f-diapo2 {
     width: 84%;
+}
+
+#f-diapo3_container {
+    position: absolute;
+    top: 800%;
+    left: 6%;
+}
+
+#f-diapo3 {
+    width: 800px;
 }
