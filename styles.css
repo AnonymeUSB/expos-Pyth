@@ -96,6 +96,7 @@ li:hover {
     height: 100%;
     top: 0%;
     left: 0%;
+    overflow: hidden;
 }
 
 #f-diapo2_container {
@@ -141,3 +142,14 @@ li:hover {
 #f-dead {
     width: 180%;
 }
+
+#f-pyths_container {
+    position: absolute;
+    top: 1300%;
+    left: 6%;
+}
+
+#f-pyths {
+    width: 150%;
+}
+
